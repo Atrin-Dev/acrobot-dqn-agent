@@ -48,3 +48,6 @@ discount_factor = 0.99
 memory_size = int(1e5)
 target_update_rate = 1e-3
 ```
+### 📢 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
