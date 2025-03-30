@@ -22,3 +22,7 @@ dqn-acrobot-v1
 │── 📜 environment.py      # Gym environment setup
 │── 📜 visualize.py        # Video visualization script
 ```
+###  Install Dependencies
+```bash
+pip install -r requirements.txt
+```
