@@ -26,3 +26,25 @@ dqn-acrobot-v1
 ```bash
 pip install -r requirements.txt
 ```
+### 🎮 Training the agent
+Run the following command to train the DQN agent:
+```bash
+python train.py --episodes 3000 --timesteps 1500 --epsilon_start 1.0 --epsilon_end 0.05 --epsilon_decay 0.99 --model_path "trained_model.pth"
+```
+This will train the agent in the Acrobot-v1 environment and save the model checkpoint if the agent solves the environment.
+### 📊 Visualizing the trained agent
+To visualize the trained agent, run:
+```bash
+python script.py --visualize --model_path checkpoint.pth --video_path video.mp4
+```
+This will generate a video of the agent interacting with the environment.
+### 📝 Configuration
+
+You can modify the hyperparameters in main.py:
+```
+learning_rate = 5e-4
+batch_size = 100
+discount_factor = 0.99
+memory_size = int(1e5)
+target_update_rate = 1e-3
+```
