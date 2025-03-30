@@ -38,6 +38,8 @@ To visualize the trained agent, run:
 python script.py --visualize --model_path checkpoint.pth --video_path video.mp4
 ```
 This will generate a video of the agent interacting with the environment.
+[Watch the trained agent in action](https://github.com/Atrin-Dev/acrobot-dqn-agent/blob/main/Acrobot.mp4)
+
 ### 📝 Configuration
 
 You can modify the hyperparameters in main.py:
