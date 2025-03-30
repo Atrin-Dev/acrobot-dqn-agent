@@ -39,6 +39,12 @@ python script.py --visualize --model_path checkpoint.pth --video_path video.mp4
 ```
 This will generate a video of the agent interacting with the environment.
 [Watch the trained agent in action](https://github.com/Atrin-Dev/acrobot-dqn-agent/blob/main/Acrobot.mp4)
+## 📊 Visualizing the Results
+
+<video width="600" controls>
+  <source src="https://github.com/Atrin-Dev/acrobot-dqn-agent/blob/main/Acrobot.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### 📝 Configuration
 
