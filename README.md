@@ -41,6 +41,7 @@ This will generate a video of the agent interacting with the environment.
 
 ### 📊 Visualizing the Results
 [Watch the trained agent by clicking the link](https://github.com/Atrin-Dev/acrobot-dqn-agent/blob/main/Acrobot.gif)
+![Demo](https://github.com/Atrin-Dev/acrobot-dqn-agent/blob/main/Acrobot.gif)
 
 ### 📝 Configuration
 
