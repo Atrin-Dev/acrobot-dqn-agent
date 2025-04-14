@@ -33,16 +33,12 @@ python train.py --episodes 3000 --timesteps 1500 --epsilon_start 1.0 --epsilon_e
 ```
 This will train the agent in the Acrobot-v1 environment and save the model checkpoint if the agent solves the environment.
 ### 📊 Visualizing the trained agent
+![Demo](https://github.com/Atrin-Dev/acrobot-dqn-agent/blob/main/Acrobot.gif)
 To visualize the trained agent, run:
 ```bash
 python script.py --visualize --model_path checkpoint.pth --video_path video.mp4
 ```
 This will generate a video of the agent interacting with the environment.
-
-### 📊 Visualizing the Results
-[Watch the trained agent by clicking the link](https://github.com/Atrin-Dev/acrobot-dqn-agent/blob/main/Acrobot.gif)
-![Demo](https://github.com/Atrin-Dev/acrobot-dqn-agent/blob/main/Acrobot.gif)
-
 ### 📝 Configuration
 
 You can modify the hyperparameters in main.py:
