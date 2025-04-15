@@ -3,7 +3,7 @@
 ## 🚀 Introduction
 This repository implements **Deep Q-Learning (DQN)** for training an agent to solve the *Acrobot-v1* environment from OpenAI Gymnasium.
 The trained agent:
-![Demo](https://github.com/Atrin-Dev/acrobot-dqn-agent/blob/main/Acrobot.mp4)
+![Demo](https://github.com/Atrin-Dev/acrobot-dqn-agent/blob/main/Acrobot.html)
 ## 📌 Features
 - **Implements Deep Q-Network (DQN) with Experience Replay**
 - **Uses PyTorch for neural network training**
